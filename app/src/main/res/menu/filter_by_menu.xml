@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Option Item Group. -->
+    <group android:id="@+id/exclusive_checkable_group"
+        android:checkableBehavior="single">
+        <!-- Notice how these items inherit from the group. -->
+        <item android:id="@+id/filter_by_item_1"
+            android:title="@string/filter_by_files"
+            android:checked="true" />
+        <item android:id="@+id/filter_by_item_2"
+            android:title="@string/filter_by_folders" />
+    </group>
+
+    <!-- Check box Item Group. -->
+    <item android:id="@+id/filter_by_item_3"
+            android:title="@string/filter_by_shared">
+        <menu>
+            <group android:id="@+id/checkable_group"
+                android:checkableBehavior="all">
+                <!-- Notice how these items inherit from the group. -->
+                <item android:id="@+id/filter_by_me"
+                    android:title="@string/filter_by_me"
+                    android:checked="true" />
+                <item android:id="@+id/filter_by_with_me"
+                    android:title="@string/filter_by_with_me"/>
+            </group>
+        </menu>
+       </item>
+</menu>

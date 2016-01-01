@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E7F4FE">
+
+           <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:background="@android:color/white"
+                    android:padding="5dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_gravity="center" android:layout_marginTop="5dp">
+                        <ImageView android:id="@+id/user_image" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/user_image_big" android:layout_marginRight="10dp" />
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                            <TextView android:text="" android:id="@+id/subject" style="@style/shareViewSub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1"></TextView>
+                            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:text="Shared On : " style="@style/shareViewData" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                                <TextView android:text="" android:id="@+id/sharedOn" style="@style/shareViewData" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                                <!--                	<TextView android:text="#Recipients : " style="@style/shareViewData" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>-->
+                                <!--                	<TextView android:text="asdf" android:id="@+id/userCount" style="@style/shareViewData" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>-->
+                            </LinearLayout>
+                            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:text="Expires On : " style="@style/shareViewData" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                                <TextView android:text="" android:id="@+id/expiry" style="@style/shareViewData" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:orientation="vertical">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/message_top"></LinearLayout>
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/message_middle">
+                            <TextView android:text="" android:id="@+id/message" style="@style/shareViewMessage" android:layout_gravity="left" android:gravity="left" android:layout_width="290dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"></TextView>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/message_bottom"></LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/allfiles" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp"  android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/sharedTo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp"  android:orientation="vertical">
+                        <TextView   android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Shared To :" style="@style/shareViewSharedToCap" />
+                        <TextView 	android:id="@+id/emails" android:layout_width="match_parent" android:layout_height="wrap_content"  style="@style/shareViewMessage" />
+                    </LinearLayout>
+                </LinearLayout>
+
+</FrameLayout>

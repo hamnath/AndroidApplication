@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Notice how these items inherit from the group. -->
+    <item android:id="@+id/createFolder"
+        android:title="@string/createFolder"
+         />
+    <item android:id="@+id/createFile"
+        android:title="@string/createFile">
+        <menu>
+            <item
+            android:id="@+id/txtfile"
+            android:title="@string/txtfile"
+           />
+            <item
+                android:id="@+id/picfile"
+                android:title="@string/picfile"/>
+            <item
+                android:id="@+id/audiofile"
+                android:title="@string/audiofile"
+                />
+            <item
+                android:id="@+id/videofile"
+                android:title="@string/videofile"/>
+        </menu>
+
+    </item>
+    <item android:id="@+id/share"
+        android:title="@string/share"
+        />
+    <item android:id="@+id/addTag"
+        android:title="@string/addTag"
+      />
+    <item android:id="@+id/download"
+        android:title="@string/download"
+    />
+
+</menu>

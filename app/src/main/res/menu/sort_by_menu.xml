@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/exclusive_checkable_group"
+        android:checkableBehavior="single">
+        <!-- Notice how these items inherit from the group. -->
+        <item android:id="@+id/sort_by_item_1"
+            android:title="@string/sort_by_type"
+            android:checked="true" />
+        <item android:id="@+id/sort_by_item_2"
+            android:title="@string/sort_by_name" />
+        <item android:id="@+id/sort_by_item_3"
+            android:title="@string/sort_by_date"
+            />
+    </group>
+</menu>

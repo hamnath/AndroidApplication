@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    >
+    <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp">
+
+        <!-- <TextView android:text="Register at " android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ffffff" android:textSize="17sp"  ></TextView>-->
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow1" android:gravity="center"   android:background="#01A9DB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="10dp">
+	<ImageView android:src="@drawable/logo" android:id="@+id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>    
+</TableRow>
+
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_marginTop="30dp">
+    <EditText android:hint=" Email" android:text=""
+        android:id="@+id/txt_username" android:layout_height="wrap_content"
+        android:layout_width="300dp" android:maxLines="1" android:scrollHorizontally="true" ></EditText>
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_marginTop="10dp">
+	<EditText android:hint="Password" android:text="" android:id="@+id/txt_password"
+        android:layout_height="wrap_content" android:inputType="textPassword"
+        android:layout_width="300dp" android:maxLines="1" android:scrollHorizontally="true" ></EditText>
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow4" android:layout_marginTop="20dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:background="#01A9DB"
+            />
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        
+   <!-- <TextView android:text="Register at " android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ffffff" android:textSize="17sp"  ></TextView>-->
+    </TableRow>
+    </TableLayout>

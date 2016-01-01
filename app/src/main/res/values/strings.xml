@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oystor</string>
+    <string name="action_sort">Sort by</string>
+    <string name="action_filter">Filter by</string>
+    <string name="action_settings">Search</string>
+    <string name="action_search">Search</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <string name="sort_by_type">Type</string>
+    <string name="sort_by_name">Name</string>
+    <string name="sort_by_date">Modified</string>
+
+    <string name="clear">Clear</string>
+    <string name="clearAll">Clear All</string>
+
+    <string name="filter_by_files">Files</string>
+    <string name="filter_by_folders">Folders</string>
+    <string name="filter_by_shared">Shared Folders</string>
+    <string name="filter_by_me">By me</string>
+    <string name="filter_by_with_me">With me</string>
+    <string name="filter_by_audio">Audio</string>
+    <string name="filter_by_video">Video</string>
+
+    <string name="view">View</string>
+    <string name="open">Open</string>
+    <string name="download">Download</string>
+    <string name="delete">Delete</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_files_downloaded">No Files Downloaded</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Files and Folders</item>
+        <item >Activities</item>
+        <item >Shared File</item>
+        <item > Contact </item>
+        <item >My Account </item>
+        <item >LogOut</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_pages</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="footerText">All Rights Reserved © m9 Tech Solutions.</string>
+
+    <string name="action_view_as_list">List View</string>
+    <string name="action_view_as_grid">Grid View</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Check for Updates</string>
+    <string-array name="dropdown">
+        <item>First Item</item>
+        <item>Second Item</item>
+    </string-array>
+    <string name="save">Save</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/image_1</item>
+        <item>@drawable/dmg_icon</item>
+        <item>@drawable/doc_icon</item>
+        <item>@drawable/docx_icon</item>
+        <item>@drawable/file_extension_docx</item>
+        <item>@drawable/dmg_icon</item>
+        <item>@drawable/sync_share_folder</item>
+        <item>@drawable/html_icon</item>
+        <item>@drawable/folder_share</item>
+        <item>@drawable/sync_folder</item>
+
+    </string-array>
+
+    <string name="item_1">Item1</string>
+    <string name="item_2">Item2</string>
+
+    <string name="item_3">Item3</string>
+
+    <string name="createFolder">Create Folder</string>
+    <string name="createFile">Create File</string>
+    <string name="upload">Upload</string>
+    <string name="share">Share</string>
+    <string name="addTag">Add Tag</string>
+    <string name="txtfile">Text File</string>
+    <string name="picfile">Take Picture</string>
+    <string name="audiofile">Create Audio</string>
+    <string name="videofile">Create Video</string>
+
+</resources>

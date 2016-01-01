@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	    	<LinearLayout android:layout_width="match_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical"
+	    	android:background="@android:color/white"
+	    	android:padding="0dp">
+    	
+	    	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="4dp" android:gravity="top" android:background="@drawable/list_row">
+
+	    		<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="2dp" android:layout_marginRight="10dp" android:layout_marginTop="10dp">
+	    			<ImageView android:src="@drawable/user_image_big" android:id="@+id/userImage" android:layout_width="60dp" android:layout_height="60dp" android:layout_gravity="top" />
+	    		</LinearLayout>
+				<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+			        
+		            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp">
+		                <TextView android:text="Name " style="@style/contactEditData" android:layout_width="55dp" android:layout_height="wrap_content"></TextView>
+		
+			        	<EditText android:id="@+id/name" android:hint="Contact Name" style="@style/contactEditVal"  android:layout_width="180dp" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:maxLines="1" android:scrollHorizontally="true" />
+		            </LinearLayout>
+		            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left" android:layout_marginTop="0dp">
+		                <TextView android:text="Email " style="@style/contactEditData" android:layout_width="55dp" android:layout_height="wrap_content" android:layout_marginTop="0dp"></TextView>
+		
+			        	<EditText android:id="@+id/email" android:hint="Email Id"  style="@style/contactEditVal" android:layout_width="180dp" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:maxLines="1" android:scrollHorizontally="true" />
+		            </LinearLayout>
+
+	            </LinearLayout>
+	        </LinearLayout>
+	        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/darker_gray" />
+			
+			<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="20dp" android:padding="10dp" android:gravity="left" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/docviewcurve">
+				<TextView android:text="Professional Details" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/contactEditHeading" android:layout_marginBottom="10dp" />
+	    		<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="1dp" android:gravity="center_vertical">
+	    			<TextView android:text="Company Name " style="@style/contactEditData" android:layout_width="125dp" android:layout_height="wrap_content" android:layout_marginTop="0dp"></TextView>
+		
+			        <EditText android:id="@+id/companyName" android:hint="Company Name" style="@style/contactEditVal" android:layout_width="175dp" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:maxLines="1" android:scrollHorizontally="true" />
+	            </LinearLayout>
+	            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="1dp" android:gravity="center_vertical">
+	    			<TextView android:text="Designation " style="@style/contactEditData" android:layout_width="125dp" android:layout_height="wrap_content" android:layout_marginTop="0dp"></TextView>
+		
+			        <EditText android:id="@+id/designation" android:hint="Designation" style="@style/contactEditVal" android:layout_width="175dp" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:maxLines="1" android:scrollHorizontally="true" />
+	            </LinearLayout>
+	            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/darker_gray" android:layout_marginBottom="10dp" android:layout_marginTop="10dp" />
+	            <TextView android:text="Contact Details" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/contactEditHeading" android:layout_marginBottom="10dp" />
+	            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="1dp" android:gravity="center_vertical" android:layout_marginTop="0dp">
+	    			<TextView android:text="Email (Secondary)" style="@style/contactEditData" android:layout_width="125dp" android:layout_height="wrap_content" android:layout_marginTop="0dp"></TextView>
+		
+			        <EditText android:id="@+id/secEmail" android:hint="Secondary Email Id" style="@style/contactEditVal" android:layout_width="175dp" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:maxLines="1" android:scrollHorizontally="true" />
+	            </LinearLayout>
+	            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="1dp" android:gravity="center_vertical" android:layout_marginTop="0dp">
+	    			<TextView android:text="Contact Number " style="@style/contactEditData" android:layout_width="125dp" android:layout_height="wrap_content" android:layout_marginTop="0dp"></TextView>
+
+			        <EditText android:id="@+id/contactNumber" android:hint="Contact Number" style="@style/contactEditVal" android:layout_width="175dp" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:maxLines="1" android:scrollHorizontally="true" />
+	            </LinearLayout>
+	            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="1dp" android:gravity="center_vertical" android:layout_marginTop="0dp">
+	    			<TextView android:text="Skype Name " style="@style/contactEditData" android:layout_width="125dp" android:layout_height="wrap_content" android:layout_marginTop="0dp"></TextView>
+		
+			        <EditText android:id="@+id/skypename" android:hint="Skype Name" style="@style/contactEditVal" android:layout_width="175dp" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:maxLines="1" android:scrollHorizontally="true" />
+	            </LinearLayout>
+	            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp" android:gravity="center_vertical" android:layout_marginTop="0dp">
+	            	<Button android:id="@+id/update"  android:text="@string/save" android:hint="Save" android:layout_width="130dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_gravity="center" android:gravity="center" />
+	            	<Button android:id="@+id/cancel"  android:text="Cancel" android:hint="Cancel" android:layout_width="130dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_gravity="center" android:gravity="center" />
+	        	</LinearLayout>
+	        </LinearLayout>
+	        
+	        
+        </LinearLayout>
+
+</FrameLayout>

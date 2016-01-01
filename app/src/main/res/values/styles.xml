@@ -1,0 +1,139 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--
+       Base application theme, dependent on API level. This theme is replaced
+       by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+   -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="settingsLoggin">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#7f7f93</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+    <style name="settingsUserName">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#4f81bd</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+    <style name="settingsUserEmail">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#404040</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+    <style name="settingsUserCap">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#917f7f</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+    <style name="settingsUserVal">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#7f7f7f</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+    <style name="settingsUserHead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#7f7f7f</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+    <style name="footerTextGrey">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#adb2ad</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="heading_title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="docViewFilename">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="docViewData">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#89898b</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="shareViewSub">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#476079</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="shareViewData">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#8b8b8b</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="shareViewDownload">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#8b8b8b</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="shareViewMessage">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#5a5a5a</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="shareViewFileName">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#525d8a</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="shareViewSharedToCap">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#525d8a</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="contactEditData">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#89898b</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="contactEditVal">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#89898b</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="contactEditHeading">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="viewCap">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+</resources>

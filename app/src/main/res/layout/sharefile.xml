@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E7F4FE">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E7F4FE"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout android:id="@+id/useremails" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="5dp">
+
+        </LinearLayout>
+
+        <Button android:id="@+id/sharewith" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Share With" />
+
+        <EditText android:id="@+id/sharesubject" android:hint="Subject" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" />
+
+        <EditText android:id="@+id/message" android:hint="Message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:minLines="3" android:gravity="top" android:scrollbars = "vertical" />
+
+        <EditText android:id="@+id/expiry" android:hint="Expiry" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" />
+
+        <TextView android:text="Rights : " android:id="@+id/rights" style="@style/viewCap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"></TextView>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+            <CheckBox android:text="Copy" android:id="@+id/copy" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+            <CheckBox android:text="Download" android:id="@+id/download" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+            <CheckBox android:text="View" android:id="@+id/view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:state_enabled="false"></CheckBox>
+
+        </LinearLayout>
+
+        <CheckBox android:text="Allow to Forward" android:id="@+id/allowforward" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+        <CheckBox android:text="Password Protect" android:id="@+id/passwordCheck" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+        <EditText android:id="@+id/password" android:hint="Password" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:visibility="gone" android:inputType="textPassword" android:maxLines="1" android:scrollHorizontally="true" />
+
+        <Button android:id="@+id/share" android:text="Share" android:hint="Share" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_gravity="center" android:gravity="center" />
+    </LinearLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" android:background="@drawable/list_row">
+    <ImageView
+        android:id="@+id/listImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="6dip"
+        android:src="@drawable/no_user_image"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/toptext"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:textSize="7pt"
+                android:maxWidth="120dp" android:maxLines="2"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/bottomtext"
+                android:gravity="center_vertical"
+                android:textSize="7pt"
+                android:typeface="sans"
+                android:maxWidth="120dp" android:maxLines="1"  />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

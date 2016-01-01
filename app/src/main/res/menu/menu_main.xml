@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="always"
+        android:title="@string/action_search"/>
+    <!-- Settings, should always be in the overflow -->
+
+    <item
+        android:id="@+id/action_view_as_grid"
+        android:icon="@drawable/ic_action_view_as_grid"
+        android:showAsAction="always"
+        android:title="@string/action_view_as_grid"/>
+
+    <item android:id="@+id/menu_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:title=""
+        android:showAsAction="always">
+        <menu>
+            <!-- Sort by -->
+             <item
+                android:id="@+id/action_sort"
+                android:title="@string/action_sort"
+                android:showAsAction="ifRoom|withText"/>
+
+            <!-- Filter by -->
+            <item
+                android:id="@+id/action_filter"
+                android:title="@string/action_filter"
+                android:showAsAction="ifRoom|withText"/>
+        </menu>
+    </item>
+
+</menu>

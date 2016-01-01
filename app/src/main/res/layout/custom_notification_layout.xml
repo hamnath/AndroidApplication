@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="3dip"
+              >
+
+    <ImageView android:id="@+id/oystoricon"
+              android:src="@drawable/icon"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              />
+    <LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="3dip"
+              >
+
+	    <TextView android:id="@+id/text"
+	              android:text="Downloading"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:textColor="#01A9DB"
+            	  android:layout_marginLeft="10dip"  
+	              />
+	
+	    <ProgressBar  
+	            style="?android:attr/progressBarStyleHorizontal" 
+	            android:layout_height="wrap_content" 
+	            android:layout_width="fill_parent"
+	            android:max="0" 
+	            android:progress="0"   
+	            android:layout_marginLeft="10dip"  
+	            android:id="@+id/progressBar" 
+	            />
+    </LinearLayout>
+</LinearLayout>

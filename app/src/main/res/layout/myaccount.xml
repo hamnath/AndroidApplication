@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="top"
+    android:stretchColumns="field">
+
+<TableRow>
+	<ScrollView
+	   android:layout_width="match_parent"
+	   android:layout_height="match_parent">
+		<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+    	android:background="@drawable/background_white" android:padding="10dp">
+   			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="0dp" android:layout_marginBottom="10dp">
+		        
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Logged in as" style="@style/settingsLoggin" android:textStyle="bold" />
+				<TextView android:text="" android:maxWidth="320dp" android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/settingsUserName" />
+		        <TextView android:text="" android:maxWidth="320dp" android:id="@+id/email" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/settingsUserEmail" />
+				        
+		        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+			        <TextView android:text="Usage : " android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/settingsUserCap" android:textStyle="bold" />
+			        
+			        <TextView android:text="" android:maxWidth="200dp" android:id="@+id/usage" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/settingsUserVal" />
+		        </LinearLayout>
+		        
+		        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+			        <TextView android:text="Plan : " android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/settingsUserCap" android:textStyle="bold" />
+			        
+			        <TextView android:text="" android:maxWidth="200dp" android:id="@+id/plan" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/settingsUserVal" />
+		        </LinearLayout>
+			        
+	        </LinearLayout>
+	        
+	        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Share" style="@style/settingsUserHead" android:layout_marginBottom="5dp" />
+	        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/blue_line" />
+	        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="5dp" android:layout_marginTop="5dp" android:gravity="center_vertical">
+		        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/email" android:layout_marginRight="10dp" />
+		        <TextView android:id="@+id/sharewithfriends" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tell a Friend about Oystor" style="@style/settingsUserVal" android:textColor="#5e5ee3" />
+	        </LinearLayout>
+	        
+	        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Help" style="@style/settingsUserHead" android:layout_marginBottom="5dp" />
+	        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/blue_line" />
+	        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="5dp" android:layout_marginTop="5dp" android:gravity="center_vertical">
+		        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/email" android:layout_marginRight="10dp" />
+		        <TextView android:id="@+id/helpmeonoystor" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Email Support" style="@style/settingsUserVal" android:textColor="#5e5ee3" />
+	        </LinearLayout>
+	        
+	        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="About" style="@style/settingsUserHead" android:layout_marginBottom="5dp" />
+	        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/blue_line" />
+	        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="5dp" android:layout_marginTop="5dp" android:gravity="center_vertical">
+		        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_info" android:layout_marginRight="10dp" />
+		        <TextView android:id="@+id/appversion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Version Loading.." style="@style/settingsUserVal" />
+	        </LinearLayout>
+	        
+			<TextView android:text="@string/footerText" style="@style/footerTextGrey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_marginTop="5dp" />
+
+		</LinearLayout>
+	</ScrollView>
+</TableRow>
+</TableLayout>
